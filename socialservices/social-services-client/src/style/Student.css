@@ -1,0 +1,190 @@
+.student-container {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+}
+
+.student-form-container {
+  width: 85vw;
+  height: 90vh;
+  display: flex;
+}
+
+.student-nav-menu {
+  max-height: 100% !important;
+  box-shadow: inset -1px 0 0 rgba(0, 0, 0, 0.1);
+  width: 15vw;
+  z-index: 2;
+  background-color: rgb(67, 81, 107);
+  margin-top: 0.1vw;
+}
+
+.snm-element {
+  width: 99.5%;
+  height: 5.495vh;
+  background-color: rgb(39, 47, 62) !important;
+  font-size: 0.7vw;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: rgb(117, 124, 138);
+  display: flex;
+  flex-flow: row nowrap;
+  margin-bottom: 5px;
+  box-shadow: 0 0 8px 0.5px #171717;
+}
+
+.snm-element-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  flex-flow: row nowrap;
+}
+
+.snm-cont-icon {
+  padding: 0.3vh 0.4vw;
+  background-color: rgb(21, 35, 34);
+  border-radius: 0.2em;
+}
+
+.snm-icon {
+  color: rgb(161, 167, 168);
+}
+
+.snm-element-name {
+  margin-left: 0.8vw;
+  color: rgb(161, 167, 168);
+  font-size: 0.7rem;
+}
+
+.snm-active-arrow {
+  margin-left: auto !important;
+  display: none;
+}
+
+.active > .snm-active-arrow {
+  color: rgb(117, 124, 138) !important;
+  display: flex !important;
+  float: right;
+}
+
+.sfc-accordion {
+  height: inherit;
+  width: inherit;
+}
+
+.sfc-container {
+}
+
+.sfc-body {
+  height: 89.6vh !important;
+  padding: 2rem 4rem !important;
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  overflow: auto;
+}
+
+.sfc-info {
+  margin-bottom: 5vh;
+  flex-direction: column;
+  float: left;
+  margin-right: 20vh;
+  width: auto;
+  min-width: 20vw;
+}
+
+/* .sfc-info {
+  margin-bottom: 5vh;
+  flex-direction: column;
+  flex: 1 0 33.33%;
+} */
+
+/* .sfc-label {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  width: 20vw;
+  color: rgb(67, 81, 107);
+  font-weight: bold;
+  padding: 0vh 0vh 0.2vh 0vh;
+} */
+
+.sfc-label {
+  font-family: sans-serif;
+  font-size: 0.8rem;
+  color: rgb(67, 81, 107);
+  font-weight: bold;
+  padding: 0vh 0vh 0.2vh 0vh;
+}
+
+/* .sfc-text {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  width: 20vw;
+  padding: 0.5vh 0vh 0.5vh 0.5vh;
+  border: 1px solid rgb(224, 229, 232);
+  border-radius: 0.4vh;
+  background: rgb(224, 229, 232);
+} */
+
+.sfc-text {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  width: 100%;
+  padding: 0.5vh 0vh 0.5vh 0.5vh;
+  border: 1px solid rgb(224, 229, 232);
+  border-radius: 0.4vh;
+  background: rgb(224, 229, 232);
+}
+
+.sfc-info > .address {
+  width: 52vw !important;
+}
+
+.sfc-info .react-date-picker__wrapper {
+  border: none !important;
+}
+.sfc-info .react-date-picker__button {
+  display: none !important;
+}
+
+.simple-dropdown-toggle {
+  background-color: transparent !important;
+  border: none !important;
+  color: inherit !important;
+  padding: 0vh 0vh 0vh 0.5vh !important;
+  font-size: 0.9rem;
+  width: 100%;
+  text-align: left;
+  box-shadow: 0 0 0 0 !important;
+  border-color: transparent !important;
+}
+
+.sfc-dropdown {
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  width: 20vw;
+  padding: 0.5vh 0vh 0.5vh 0vh;
+  border: 1px solid rgb(224, 229, 232);
+  border-radius: 0.4vh;
+  background: rgb(224, 229, 232);
+}
+
+.sfc-dropdown > .dropdown-toggle::after {
+  display: none !important;
+}
+
+.sfc-dropdown .dropdown-menu {
+  width: 100% !important;
+  padding: 0 !important;
+}
+.sfc-dropdown .dropdown-item {
+  padding: 0.25rem 0.5rem;
+  border-bottom: 1px solid #eaeaea;
+}

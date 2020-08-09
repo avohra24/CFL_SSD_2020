@@ -1,0 +1,19 @@
+.navbar-container {
+  color: white;
+  height: 5.5vh !important;
+}
+
+.navbar-logo {
+  image-rendering: pixelated;
+}
+
+.navbar-logo-text {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 1vw;
+  font-weight: bold;
+  color: white;
+}
+
+.hamburger-icon {
+  cursor: pointer;
+}

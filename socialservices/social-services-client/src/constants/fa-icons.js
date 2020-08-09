@@ -1,0 +1,15 @@
+export const FA_USER = "fa-user";
+export const FA_USERS = "fa-users";
+export const FA_DASHBOARD = "fa-tachometer-alt";
+export const FA_HOME = "fa-home";
+export const FA_MEDKIT = "fa-medkit";
+export const FA_PILLS = "fa-pills";
+export const FA_RIBBON = "fa-ribbon";
+export const FA_BUILDINGO = "fa-building";
+export const FA_MONEY = "fa-money-bill";
+export const FA_HELP = "fa-people-carry";
+export const FA_JAIL = "fa-grip-vertical";
+export const FA_VIOLENCE = "fa-angle-down";
+export const FA_ENGLISH = "fa-font";
+export const FA_RIGHT = "fa-caret-right";
+export const FA_DOWN = "fa-caret-down";
